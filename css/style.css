@@ -89,8 +89,24 @@ body {
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
     cursor: default; }
 
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(last-child) {
+    margin-bottom: 3rem; }
+
 .u-center-text {
   text-align: center; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
 
 .btns:link, .btns:visited {
   text-transform: uppercase;
@@ -159,8 +175,7 @@ body {
     text-align: center; }
 
 .row {
-  max-width: 114rem;
-  background-color: #eee;
+  max-width: 90%;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -169,7 +184,6 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: #a6ff00;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
