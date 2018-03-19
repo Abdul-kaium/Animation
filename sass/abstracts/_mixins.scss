@@ -14,3 +14,18 @@
     transform: translate(-50%, -50%);
     border-radius: 3px;
 }
+
+
+//MEADIA QUERY MANAGER
+/*
+0-600px:      phone
+600-900px:    Tablet portrait
+900-1200px:   Tablet Landscape
+1200-1800px:  Is where our normal Styles apply
+1800px+:      big screen desktop
+*/
+@mixin respond-phone{
+    @media(max-width: 600px){
+        @content
+    }
+}
