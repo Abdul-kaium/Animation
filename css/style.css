@@ -65,7 +65,7 @@ body {
   padding: 3rem; }
 
 .heading-primary {
-  color: #cfd1d6;
+  color: white;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
@@ -163,14 +163,14 @@ body {
   animation-fill-mode: backwards; }
 
 .btns--white {
-  background-color: #cfd1d6;
+  background-color: white;
   color: #777; }
   .btns--white::after {
-    background-color: #cfd1d6; }
+    background-color: white; }
 
 .btns--green {
   background-color: #55c57a;
-  color: #cfd1d6; }
+  color: white; }
   .btns--green::after {
     background-color: #55c57a; }
 
@@ -196,7 +196,7 @@ body {
 
 .btn-text:hover {
   background-color: #55c57a;
-  color: #cfd1d6;
+  color: white;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
 
@@ -241,7 +241,7 @@ body {
     transform: skewY(7deg); }
 
 .feature-box {
-  background-color: rgba(207, 209, 214, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
@@ -275,7 +275,7 @@ body {
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
-      background-color: #cfd1d6; }
+      background-color: white; }
     .card__side--back {
       background-color: green;
       transform: rotateY(-180deg); }
@@ -308,7 +308,7 @@ body {
     font-weight: 300;
     text-align: right;
     text-transform: uppercase;
-    color: #cfd1d6;
+    color: white;
     position: absolute;
     top: 12rem;
     right: 2rem;
@@ -344,7 +344,7 @@ body {
     width: 90%; }
   .card__price--box {
     text-align: center;
-    color: #cfd1d6;
+    color: white;
     margin-bottom: 8rem; }
   .card__price--only {
     font-size: 1.4rem;
@@ -357,7 +357,7 @@ body {
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(207, 209, 214, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -387,7 +387,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 20%);
-    color: #cfd1d6;
+    color: white;
     font-size: 1.7rem;
     text-align: center;
     text-transform: uppercase;
@@ -425,7 +425,7 @@ body {
   padding: 1.5rem 2rem;
   color: inherit;
   border-radius: 2px;
-  background-color: rgba(207, 209, 214, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   border: none;
   border-bottom: 3px solid transparent;
   width: 90%;
@@ -510,7 +510,7 @@ body {
     transform: translate(-50%, -50%);
     border-radius: 3px;
     width: 75%;
-    background-color: #cfd1d6;
+    background-color: white;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     display: table;
     overflow: hidden;
@@ -664,7 +664,7 @@ body {
   display: none; }
 
 .navigation__button {
-  background-color: #cfd1d6;
+  background-color: white;
   height: 7rem;
   width: 7rem;
   position: fixed;
@@ -713,10 +713,10 @@ body {
   font-size: 3rem;
   font-weight: 300;
   padding: 1rem 2rem;
-  color: #cfd1d6;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #cfd1d6 50%);
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
   background-size: 220%;
   transition: all .4s; }
   .navigation__link:link span, .navigation__link:visited span {
@@ -789,7 +789,7 @@ body {
   background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(207, 209, 214, 0.9) 0%, rgba(207, 209, 214, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
   background-size: cover;
   height: 50rem;
   border-radius: 3px;
